@@ -1,6 +1,6 @@
 {
   "bot_name": "ChatPal",
-  "qwen_api_key": "sk-f05ef9cd88fd436ea4be2b2e3edae7f4",
+  "qwen_api_key": "",
   "qwen_model": "qwen3-235b-a22b",
   "max_history": 10,
   "max_tokens": 2000,
