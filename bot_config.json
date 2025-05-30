@@ -1,0 +1,11 @@
+{
+  "bot_name": "ChatPal",
+  "qwen_api_key": "sk-f05ef9cd88fd436ea4be2b2e3edae7f4",
+  "qwen_model": "qwen3-235b-a22b",
+  "max_history": 10,
+  "max_tokens": 2000,
+  "temperature": 0.8,
+  "max_context_tokens": 8000,
+  "save_path": "conversations",
+  "username": "用户"
+}

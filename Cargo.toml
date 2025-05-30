@@ -1,0 +1,28 @@
+[package]
+name = "chatbot"
+version = "0.1.0"
+edition = "2021"
+description = "通义千问对话机器人"
+authors = ["Your Name <your@email.com>"]
+license = "MIT"
+repository = "https://github.com/yourusername/chatbot"
+readme = "README.md"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+reqwest = { version = "0.11", features = ["blocking", "json"] }
+colored = "2.1"
+chrono = { version = "0.4", features = ["serde"] }
+thiserror = "1.0"
+once_cell = "1.19"  # 用于一次性的全局初始化
+
+# 移除了会导致问题的特性部分
+# 可选的环境变量支持 - 根据你的需要取消注释
+# [dependencies.dotenv]
+# version = "0.15"
+# optional = true
+
+# [features]
+# default = []
+# dotenv = ["dep:dotenv"]
